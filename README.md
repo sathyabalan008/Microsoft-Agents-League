@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🇺🇸 US Mock Election Platform (Agents League Hackathon 2026)
 
-## Getting Started
+An AI-powered mock election platform built for the **Microsoft Agents League Hackathon 2026**.
 
-First, run the development server:
+This project simulates a secure, real-time, mobile-first voting experience inspired by real-world election systems. It enables administrators to create elections and voters to cast votes through a simple and engaging ballot interface.
+
+---
+
+## 🚀 Features
+
+### 🗳️ Public Ballot (Mobile EVM UI)
+- Clean, kiosk-style voting interface
+- Mobile-first design (EVM-style experience)
+- One-tap voting with confirmation screen
+- Prevents multiple votes per device (demo logic)
+- Real-time vote count update
+
+---
+
+### ⚙️ Admin Control Panel
+- Create and configure elections
+- Start / Pause / Stop election lifecycle
+- Default ballot seeding for MVP
+- QR/Booth integration ready
+- Election metadata management
+
+---
+
+### 🔗 GitHub + Azure DevOps Integration
+- Code hosted on GitHub
+- Designed to integrate with Azure DevOps
+- Supports external repository linking for pipeline/demo workflows
+
+---
+
+## 🧠 AI Component (Hackathon Requirement)
+
+This project is designed to integrate AI agents for:
+
+- 🧩 Smart ballot generation (future enhancement)
+- 📊 Real-time results analysis
+- 🗣️ Natural language interaction for election insights
+- 🤖 AI-assisted election setup automation
+
+---
+
+## 🏗️ Tech Stack
+
+- **Frontend:** Next.js (App Router), React, TypeScript
+- **Styling:** Tailwind CSS
+- **State/Data:** LocalStorage (MVP simulation)
+- **Tools:** GitHub, VS Code, Microsoft Copilot
+- **Platform Vision:** Azure + Power BI integration
+
+---
+
+## 📲 How to Run Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
