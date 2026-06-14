@@ -59,3 +59,7 @@ This project is designed to integrate AI agents for:
 ```bash
 npm install
 npm run dev
+
+## In Production Ready
+https://chanakyamahaveera.com/
+https://vote.chanakyamahaveera.com/
